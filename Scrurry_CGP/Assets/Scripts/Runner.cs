@@ -17,11 +17,11 @@ public int scurryspeed = 30;
     void Update()
     {
         transform.Translate(userDirection * movespeed * Time.deltaTime); 
-          if (Input.GetKey(KeyCode.A))  
+          if (Input.GetKey(KeyCode.D))  
         {  
             transform.Translate(0.1f, 0f, 0f);  
         }  
-        if (Input.GetKey(KeyCode.D))  
+        if (Input.GetKey(KeyCode.A))  
         {  
             transform.Translate(-0.1f, 0f, 0f);  
         }  
