@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DestructoBlock : MonoBehaviour
 {
+    Runner runner;
+    [SerializeField] GameObject player;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        runner = player.GetComponent<Runner>();
     }
 
     // Update is called once per frame
@@ -20,7 +24,11 @@ public class DestructoBlock : MonoBehaviour
     {
         if(poorsoul.CompareTag("Player")||poorsoul.CompareTag("Enemy"))
         {
-            Destroy(poorsoul.gameObject);
+            runner.movespeed = 0;
+            runner.normalSpeed = 0;
+            SceneManager.LoadScene("SampleScene");
+
         }
+
     }
 }
