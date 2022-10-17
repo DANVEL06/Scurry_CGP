@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Runner : MonoBehaviour
 {
     public int movespeed = 10;
+
     public int normalSpeed = 10;
     public int scurryspeed = 50;
     public int fastSpeed = 50;
@@ -15,6 +16,7 @@ public class Runner : MonoBehaviour
 
     public Button ScurryButton;
     public float scurryButtonCooldown = 5.0f;
+    public float framePersecond =2;
     private bool goingFast = false;
 
   
@@ -32,11 +34,11 @@ public class Runner : MonoBehaviour
         transform.Translate(userDirection * movespeed * Time.deltaTime); 
           if (Input.GetKey(KeyCode.D))  
         {  
-            transform.Translate(0.1f, 0f, 0f);  
+            transform.Translate(0.1f , 0f, 0f);  
         }  
         if (Input.GetKey(KeyCode.A))  
         {  
-            transform.Translate(-0.1f, 0f, 0f);  
+            transform.Translate(-0.1f , 0f, 0f);  
         }
       
         if (goingFast)
