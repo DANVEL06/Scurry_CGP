@@ -8,10 +8,13 @@ public class DestructoBlock : MonoBehaviour
     Runner runner;
     [SerializeField] GameObject player;
 
+     public GameObject loseUI;
+
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         runner = player.GetComponent<Runner>();
+        loseUI.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -26,8 +29,8 @@ public class DestructoBlock : MonoBehaviour
         {
             runner.movespeed = 0;
             runner.normalSpeed = 0;
-            SceneManager.LoadScene("SampleScene");
 
+            loseUI.gameObject.SetActive(true);
         }
 
     }

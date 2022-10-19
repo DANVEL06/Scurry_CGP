@@ -177,6 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  loseUI: {fileID: 0}
 --- !u!1001 &2692112934427724066
 PrefabInstance:
   m_ObjectHideFlags: 0
