@@ -5,6 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class ButtonFunction : MonoBehaviour
 {
+    public GameObject pauseMenuUI;
+    public bool isPaused;
+    
+    public void Resume ()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+         isPaused = false;
+    }
+
+    public void Pause ()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
+    }
+    
     public void Reset()
     {
         SceneManager.LoadScene("SampleScene");
@@ -13,5 +30,6 @@ public class ButtonFunction : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f;
     }
 }
