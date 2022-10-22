@@ -34,11 +34,11 @@ public class Runner : MonoBehaviour
         transform.Translate(userDirection * movespeed * Time.deltaTime); 
           if (Input.GetKey(KeyCode.D))  
         {  
-            transform.Translate(1.0f , 0f, 0f);  
+            transform.Translate(0.5f , 0f, 0f);  
         }  
         if (Input.GetKey(KeyCode.A))  
         {  
-            transform.Translate(-1.0f , 0f, 0f);  
+            transform.Translate(-0.5f , 0f, 0f);  
         }
       
         if (goingFast)
