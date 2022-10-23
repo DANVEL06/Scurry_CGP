@@ -31,9 +31,18 @@ public class ButtonFunction : MonoBehaviour
         SceneManager.LoadScene("Living room");
     }
 
+    public void ResetR()
+    {
+        SceneManager.LoadScene("RoachNest");
+    }
+
     public void Next()
     {
         SceneManager.LoadScene("Living room");
+    }
+     public void NextB()
+    {
+        SceneManager.LoadScene("bathroom");
     }
 
     public void MainMenu()
