@@ -24,7 +24,7 @@ public class ButtonFunction : MonoBehaviour
     
     public void Reset()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("bathroom");
     }
 
     public void MainMenu()
