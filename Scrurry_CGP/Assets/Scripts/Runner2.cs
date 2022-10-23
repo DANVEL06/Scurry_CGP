@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class Runner2 : MonoBehaviour
 {
-    public int movespeed = 1000;
-    public int normalSpeed = 1000;
-    public int scurryspeed = 5000;
-    public int fastSpeed = 5000;
+    public int movespeed = 3000;
+    public int normalSpeed = 3000;
+    public int scurryspeed = 6000;
+    public int fastSpeed = 6000;
     public Vector3 userDirection = Vector3.forward;
 
     public float speedBoostDuration = 2.0f;

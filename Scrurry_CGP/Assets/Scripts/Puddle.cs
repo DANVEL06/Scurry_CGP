@@ -25,7 +25,7 @@ public class Puddle : MonoBehaviour
     }
    public void OnTriggerExit(Collider roach)
    {
-        runner.movespeed = 1000;
-        runner.normalSpeed = 1000;
+        runner.movespeed = 3000;
+        runner.normalSpeed = 3000;
    }
 }
