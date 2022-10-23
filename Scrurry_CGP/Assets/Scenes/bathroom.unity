@@ -13184,10 +13184,6 @@ PrefabInstance:
       propertyPath: loseUI
       value: 
       objectReference: {fileID: 2103620983}
-    - target: {fileID: 2036830449190653375, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
-      propertyPath: near clip plane
-      value: -50
-      objectReference: {fileID: 0}
     - target: {fileID: 3436526244307685535, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_Name
       value: Player

@@ -22,9 +22,13 @@ public class ButtonFunction : MonoBehaviour
         isPaused = true;
     }
     
-    public void Reset()
+    public void ResetB()
     {
         SceneManager.LoadScene("bathroom");
+    }
+    public void ResetL()
+    {
+        SceneManager.LoadScene("Living room");
     }
 
     public void Next()
