@@ -6,6 +6,7 @@ public class TouchMovement : MonoBehaviour
 {
     private Touch touch;
     private float speedModifier;
+    private int dontMove = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -21,10 +22,11 @@ public class TouchMovement : MonoBehaviour
             touch = Input.GetTouch(0);
             if(touch.phase == TouchPhase.Moved)
             {
+                
                 transform.position = new Vector3(
                    transform.position.x + touch.deltaPosition.x * speedModifier,
-                   transform.position.y,
-                   transform.position.z + touch.deltaPosition.y * speedModifier);
+                   transform.position.y + touch.deltaPosition.y * dontMove,
+                   transform.position.z + touch.deltaPosition.y * dontMove);
                 
             }
         }
