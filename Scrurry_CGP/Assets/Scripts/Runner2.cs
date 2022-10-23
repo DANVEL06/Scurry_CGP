@@ -7,6 +7,7 @@ public class Runner2 : MonoBehaviour
 {
     public int movespeed = 3000;
     public int normalSpeed = 3000;
+    public int puddleSpeed = 500;
     public int scurryspeed = 6000;
     public int fastSpeed = 6000;
     public Vector3 userDirection = Vector3.forward;
