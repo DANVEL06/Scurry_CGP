@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DestructoBlock : MonoBehaviour
 {
-    Runner runner;
+    Runner2 runner;
     [SerializeField] GameObject player;
 
      public GameObject loseUI;
@@ -13,7 +13,7 @@ public class DestructoBlock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        runner = player.GetComponent<Runner>();
+        runner = player.GetComponent<Runner2>();
         loseUI.gameObject.SetActive(false);
     }
 

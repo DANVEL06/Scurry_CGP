@@ -27,6 +27,11 @@ public class ButtonFunction : MonoBehaviour
         SceneManager.LoadScene("bathroom");
     }
 
+    public void Next()
+    {
+        SceneManager.LoadScene("Living room");
+    }
+
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");

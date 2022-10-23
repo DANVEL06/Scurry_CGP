@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Puddle : MonoBehaviour
 {
-    Runner runner;
+    Runner2 runner;
    [SerializeField] GameObject player;
 
     // Start is called before the first frame update
     void Awake()
     {
-        runner = player.GetComponent<Runner>();
+        runner = player.GetComponent<Runner2>();
     }
 
     // Update is called once per frame
@@ -20,11 +20,12 @@ public class Puddle : MonoBehaviour
     }
     void OnTriggerEnter(Collider roach)
     {
-        runner.movespeed = 3;
-
+        runner.movespeed = 200;
+        runner.normalSpeed = 200;
     }
-   void OnTriggerExit(Collider roach)
+   public void OnTriggerExit(Collider roach)
    {
-    runner.movespeed = 16;
+        runner.movespeed = 1000;
+        runner.normalSpeed = 1000;
    }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
-    Runner runner;
+    Runner2 runner;
     [SerializeField] GameObject player;
     public GameObject winUI;
     // Start is called before the first frame update
