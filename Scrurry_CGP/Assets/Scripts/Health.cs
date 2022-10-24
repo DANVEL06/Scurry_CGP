@@ -7,11 +7,13 @@ public class Health : MonoBehaviour
     public int currentHealth = 5;
     public int maxHealth = 5;
     public bool isDead = false;
+    public HealthBar healthBar;
     public GameObject loseUI;
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         loseUI.gameObject.SetActive(false);
     }
 
