@@ -1451,6 +1451,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: scurryspeed
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: ScurryButton
       value: 
       objectReference: {fileID: 1985158321}
