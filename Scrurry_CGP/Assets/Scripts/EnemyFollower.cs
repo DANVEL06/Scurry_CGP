@@ -8,21 +8,16 @@ public class EnemyFollower : MonoBehaviour
     public int MoveSpeed = 2;
     public int MaxDist = 101;
     public int MinDist = 5;
-
-
     public float health = 50f;  // code to add
-
-
 
     private void Start()
     {
+
     }
 
 
     void FixedUpdate()
     {
-
-
         
         transform.LookAt(Player);
 
