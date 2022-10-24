@@ -5,7 +5,13 @@ using UnityEngine;
 public class KnockbackTrigger : MonoBehaviour
 {
    public Runner2 runner2;
+   public Animator animator;
      [SerializeField] Collider player;
+     private int counter;
+
+    public float hitCooldown;
+    private float timecounter;
+    private bool hitTrigger;  
 
     // Awake is called before Start
     void Awake()
@@ -18,12 +24,22 @@ public class KnockbackTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (hitTrigger == true){
+        timecounter+=Time.deltaTime;
+        if(timecounter>hitCooldown)
+        {
+          timecounter = 0;
+          animator.SetBool("isHit", false);
+          hitTrigger = false;
+        }
+}
     }
    void OnTriggerEnter(Collider player)
    {
-    Debug.Log("Collision detected");
-    //calling knockback function
-    //player.GetComponent<Runner2>().Knockback();
+      hitTrigger = true;
+      animator.SetBool("isHit", true);
+      Debug.Log("Collision detected");
+      //calling knockback function
+     player.GetComponent<Runner2>().Knockback();
    }
 }

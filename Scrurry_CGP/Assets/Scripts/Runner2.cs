@@ -100,7 +100,7 @@ public class Runner2 : MonoBehaviour
     }
     
 
-    void Knockback()
+    public void Knockback()
     {
         isKnocked = true;
         mult = -1;
