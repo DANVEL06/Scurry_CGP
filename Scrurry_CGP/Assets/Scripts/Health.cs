@@ -9,6 +9,7 @@ public class Health : MonoBehaviour
     public bool isDead = false;
     public HealthBar healthBar;
     public GameObject loseUI;
+    public Animator healthAnimator;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,4 +36,5 @@ public class Health : MonoBehaviour
             Debug.Log("ow");
         }
     }
+
 }
