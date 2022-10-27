@@ -172,6 +172,7 @@ GameObject:
   - component: {fileID: 1915144741195237426}
   - component: {fileID: 1915144741195237425}
   - component: {fileID: 8077555237025430057}
+  - component: {fileID: 543450651940781964}
   m_Layer: 0
   m_Name: Spider_Model_SC
   m_TagString: Untagged
@@ -186,9 +187,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608519743065070573}
-  m_LocalRotation: {x: -0, y: 0.73365533, z: -0, w: 0.67952186}
+  m_LocalRotation: {x: 0, y: 0.7336528, z: 0, w: 0.67952454}
   m_LocalPosition: {x: 72.6, y: 16.15, z: -5.1}
-  m_LocalScale: {x: 145.43575, y: 145.43575, z: 145.43575}
+  m_LocalScale: {x: 145.43576, y: 145.43575, z: 145.43576}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3663103291424736596}
@@ -252,6 +253,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &543450651940781964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608519743065070573}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.012424976, y: 0.016837386, z: 0.04836368}
+  m_Center: {x: 0.0015252278, y: 0.009785417, z: 0.0013295863}
 --- !u!1 &1805945268050372487
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +423,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915144741132227759}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 7.126176, y: 2.6128368, z: 2.2342427}

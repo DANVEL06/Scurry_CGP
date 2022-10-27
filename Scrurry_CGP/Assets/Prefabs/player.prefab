@@ -268,7 +268,7 @@ MonoBehaviour:
   movespeed: 1000
   normalSpeed: 1000
   puddleSpeed: 500
-  scurryspeed: 1500
+  scurryspeed: 3000
   fastSpeed: 1500
   userDirection: {x: 0, y: 0, z: 1}
   speedBoostDuration: 2
