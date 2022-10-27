@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Health : MonoBehaviour
     public HealthBar healthBar;
     public GameObject loseUI;
     public Animator healthAnimator;
+    public static bool isPaused = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +24,14 @@ public class Health : MonoBehaviour
     public void Damage(int d)
     {
         currentHealth -= d;
+        
         if (currentHealth <= 0)
         {
             isDead = true;
             loseUI.gameObject.SetActive(true);
+
+            Time.timeScale = 0f;
+            isPaused = true;
         }
     }
     // Update is called once per frame
@@ -35,6 +42,8 @@ public class Health : MonoBehaviour
             Damage(1);
             Debug.Log("ow");
         }
+
+        healthBar.SetHealth(currentHealth);
     }
 
 }

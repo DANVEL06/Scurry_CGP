@@ -25,29 +25,46 @@ public class ButtonFunction : MonoBehaviour
     public void ResetB()
     {
         SceneManager.LoadScene("bathroom");
+        
+        Time.timeScale = 1f;
+         isPaused = false;
     }
     public void ResetL()
     {
         SceneManager.LoadScene("Living room");
+
+        Time.timeScale = 1f;
+         isPaused = false;
     }
 
     public void ResetR()
     {
         SceneManager.LoadScene("RoachNest");
+
+        Time.timeScale = 1f;
+        isPaused = false;
     }
 
     public void Next()
     {
         SceneManager.LoadScene("Living room");
+
+        Time.timeScale = 1f;
+        isPaused = false;
     }
      public void NextB()
     {
         SceneManager.LoadScene("bathroom");
+
+        Time.timeScale = 1f;
+        isPaused = false;
     }
 
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+
         Time.timeScale = 1f;
+        isPaused = false;
     }
 }

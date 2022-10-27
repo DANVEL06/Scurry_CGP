@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class DestructoBlock : MonoBehaviour
 {
-    Runner2 runner;
     [SerializeField] GameObject player;
+    Runner2 runner;
 
      public GameObject loseUI;
 
