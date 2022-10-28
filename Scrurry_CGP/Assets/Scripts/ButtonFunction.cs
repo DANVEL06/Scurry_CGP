@@ -29,6 +29,14 @@ public class ButtonFunction : MonoBehaviour
         Time.timeScale = 1f;
          isPaused = false;
     }
+
+    public void ResetBR()
+    {
+        SceneManager.LoadScene("Bedroom");
+        
+        Time.timeScale = 1f;
+         isPaused = false;
+    }
     public void ResetL()
     {
         SceneManager.LoadScene("Living room");
@@ -45,16 +53,33 @@ public class ButtonFunction : MonoBehaviour
         isPaused = false;
     }
 
-    public void Next()
+    public void NextB()
+    {
+        SceneManager.LoadScene("bathroom");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+    public void NextBed()
+    {
+        SceneManager.LoadScene("Bedroom");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+
+    public void NextL()
     {
         SceneManager.LoadScene("Living room");
 
         Time.timeScale = 1f;
         isPaused = false;
     }
-     public void NextB()
+     
+    public void NextK()
     {
-        SceneManager.LoadScene("bathroom");
+        SceneManager.LoadScene("Kitchen");
 
         Time.timeScale = 1f;
         isPaused = false;
