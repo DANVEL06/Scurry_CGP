@@ -31,6 +31,7 @@ public class KnockbackTrigger : MonoBehaviour
           timecounter = 0;
           animator.SetBool("isHit", false);
           hitTrigger = false;
+          Debug.Log("is working");
         }
 }
     }

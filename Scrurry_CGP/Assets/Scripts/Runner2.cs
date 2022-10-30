@@ -25,10 +25,15 @@ public class Runner2 : MonoBehaviour
     public float knockTime = 1.0f;
     public bool powerUp_DisableScurryWait= false;
 
+    [SerializeField]
+    private Image imageCooldown;
+
+
     // Start is called before the first frame update
     void Start()
     {
         ScurryButton.onClick.AddListener(SpeedChange);
+        imageCooldown.fillAmount = 0.0f;
     }
 
     // Update is called once per frame
