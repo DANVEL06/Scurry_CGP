@@ -5678,6 +5678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shampoo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7765324746345977257, guid: c9435433ecf057642a966ff7f5fa16c8, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5597002278806442958, guid: 1d3821031159673479e94a422d782ea5, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9435433ecf057642a966ff7f5fa16c8, type: 3}
 --- !u!4 &925010016 stripped
