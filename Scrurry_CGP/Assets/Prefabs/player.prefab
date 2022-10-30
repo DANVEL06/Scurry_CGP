@@ -250,7 +250,9 @@ MonoBehaviour:
   currentHealth: 5
   maxHealth: 5
   isDead: 0
+  healthBar: {fileID: 0}
   loseUI: {fileID: 0}
+  healthAnimator: {fileID: 0}
 --- !u!114 &-8465422836200973001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movespeed: 1000
   normalSpeed: 1000
-  scurryspeed: 1500
+  puddleSpeed: 500
+  scurryspeed: 3000
   fastSpeed: 1500
   userDirection: {x: 0, y: 0, z: 1}
   speedBoostDuration: 2

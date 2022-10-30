@@ -1,5 +1,64 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &92219597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 92219598}
+  - component: {fileID: 92219600}
+  - component: {fileID: 92219599}
+  m_Layer: 0
+  m_Name: hairbrushTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &92219598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92219597}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.0055743363, y: 0.0055743363, z: 0.0055743363}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5627393428130218133}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &92219600
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92219597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.443878, y: 2.106164, z: 17.925858}
+  m_Center: {x: 0.07175064, y: -0.553082, z: -0.116371155}
+--- !u!114 &92219599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92219597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4e149d56aa5724dbbdfc137f370273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1 &4995428965773580847
 GameObject:
   m_ObjectHideFlags: 0
@@ -13,7 +72,6 @@ GameObject:
   - component: {fileID: 6796961381545294842}
   - component: {fileID: 3469287837215894103}
   - component: {fileID: 3469287837215894104}
-  - component: {fileID: 3469287837215894105}
   m_Layer: 0
   m_Name: Hairbrush
   m_TagString: Untagged
@@ -32,7 +90,8 @@ Transform:
   m_LocalPosition: {x: 33.09, y: 3.03, z: 143.92}
   m_LocalScale: {x: 179.39355, y: 179.39355, z: 179.39355}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 92219598}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -100,7 +159,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &3469287837215894104
 BoxCollider:
@@ -115,16 +174,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.035190422, y: 0.026859688, z: 0.09960494}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3469287837215894105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4995428965773580847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b4e149d56aa5724dbbdfc137f370273, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
