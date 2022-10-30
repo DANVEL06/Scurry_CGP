@@ -12,6 +12,7 @@ public class Health : MonoBehaviour
     public GameObject loseUI;
     public Animator healthAnimator;
     public static bool isPaused = false;
+    public bool isInvincible = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,11 @@ public class Health : MonoBehaviour
 
     public void Damage(int d)
     {
+        if(isInvincible == true)
+        {
+            return;
+        }
+
         currentHealth -= d;
         
         if (currentHealth <= 0)
@@ -44,6 +50,16 @@ public class Health : MonoBehaviour
         }
 
         healthBar.SetHealth(currentHealth);
+    }
+
+    public void Invincibility()
+    {
+        isInvincible = true;
+        Invoke("NotInvincible", 5);
+    }
+    public void NotInvincible()
+    {
+        isInvincible = false;
     }
 
 }

@@ -17,12 +17,13 @@ public class Runner2 : MonoBehaviour
     public Button ScurryButton;
     public float scurryButtonCooldown = 5.0f;
     public float framePersecond =2;
-    private bool goingFast = false;
+    public bool goingFast = false, scurryWait = false;
     public Vector3 moveDirection;
     public Rigidbody rb;
     public bool isKnocked = false;
     public int mult = 1;
     public float knockTime = 1.0f;
+    public bool powerUp_DisableScurryWait= false;
 
     // Start is called before the first frame update
     void Start()
@@ -89,10 +90,30 @@ public class Runner2 : MonoBehaviour
 
     void SpeedChange()
     {
+        if(scurryWait == true)
+        {
+            Debug.Log("Too tired");
+            return;
+        }
+        if(goingFast == true)
+        {
+            Debug.Log("Player already Scurried");
+            return;
+        }
+
         Debug.Log("is working");
         movespeed = scurryspeed;
         Debug.Log("gotta go fast");
         goingFast = true;
+
+        goingFast = true;
+        
+        Invoke("DisableSpeedChange",speedBoostDuration);
+        if(powerUp_DisableScurryWait == false)
+        {
+        scurryWait = true;
+        Invoke("ChillOut",scurryButtonCooldown);
+        }
     }
     void FixedUpdate()
     {
@@ -111,4 +132,25 @@ public class Runner2 : MonoBehaviour
         isKnocked = false;
         mult = 1;
     }
+
+    public void DisableSpeedChange()
+    {
+        goingFast = false;
+        movespeed = normalSpeed;
+    }
+    public void ChillOut()
+    {
+        scurryWait = false;
+    }
+    public void PowerUp_DisableScurryWait()
+    {
+        Debug.Log("powerup ENABLED");
+        powerUp_DisableScurryWait = true;
+        Invoke("Disable_PowerUp_DisableScurryWait",10);
+    }
+   public void Disable_PowerUp_DisableScurryWait()
+   {
+    Debug.Log("powerup DISABLED");
+    powerUp_DisableScurryWait = false;
+   }
 }
