@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4091363657909622969}
   - component: {fileID: 4091363657909622974}
   - component: {fileID: 4091363657909622975}
-  - component: {fileID: 4091363657909622972}
+  - component: {fileID: 9098263619639018771}
   m_Layer: 0
   m_Name: SugarCube
   m_TagString: Untagged
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4091363657909622972
+--- !u!114 &9098263619639018771
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,6 +107,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 4091363657909622973}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd08d2bed0bfea49921dde10a48ab09, type: 3}
+  m_Script: {fileID: 11500000, guid: d3510099126d89d4185e6de4e49bf7b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  heal: 5

@@ -24,6 +24,7 @@ public class Runner2 : MonoBehaviour
     public int mult = 1;
     public float knockTime = 1.0f;
     public bool powerUp_DisableScurryWait= false;
+    private float currentTime =0;
 
     [SerializeField]
     private Image imageCooldown;
@@ -60,6 +61,9 @@ public class Runner2 : MonoBehaviour
         {
             if (speedBoostDuration > 0)
             {
+                currentTime += Time.deltaTime;
+                Debug.Log("its working");
+
                 speedBoostDuration -= Time.deltaTime;
                 if (speedBoostDuration <= 0.01f)
                 {
@@ -68,9 +72,12 @@ public class Runner2 : MonoBehaviour
                     goingFast = false;
                     speedBoostDuration = 2.0f;
                     
-                
+                    currentTime = 0;
+                    
                 }
             }
+
+            imageCooldown.fillAmount = currentTime / scurryButtonCooldown; //calculates percentage of button filled and puts it in scurry's fillAmount
         }
 
         /*if (scurryButtonCooldown > 0)
@@ -117,6 +124,7 @@ public class Runner2 : MonoBehaviour
         if(powerUp_DisableScurryWait == false)
         {
         scurryWait = true;
+        
         Invoke("ChillOut",scurryButtonCooldown);
         }
     }

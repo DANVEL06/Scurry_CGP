@@ -13,6 +13,7 @@ public class Health : MonoBehaviour
     public Animator healthAnimator;
     public static bool isPaused = false;
     public bool isInvincible = false;
+    public int cantTouchThis = 5;
 
     // Start is called before the first frame update
     void Start()
@@ -55,7 +56,7 @@ public class Health : MonoBehaviour
     public void Invincibility()
     {
         isInvincible = true;
-        Invoke("NotInvincible", 5);
+        Invoke("NotInvincible", cantTouchThis);
     }
     public void NotInvincible()
     {
