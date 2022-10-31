@@ -49,12 +49,12 @@ public class Runner2 : MonoBehaviour
        //transform.Translate(userDirection * movespeed * Time.deltaTime); 
           if (Input.GetKey(KeyCode.D))  
         {  
-            moveDirection += new Vector3(1f , 0f, 0f);  
+            moveDirection += new Vector3(.5f , 0f, 0f);  
             //transform.Translate(0.1f , 0f, 0f);  
         }  
         if (Input.GetKey(KeyCode.A))  
         {  
-            moveDirection += new Vector3(-1f , 0f, 0f);  
+            moveDirection += new Vector3(-.5f , 0f, 0f);  
         }
        Debug.Log(moveDirection);
         if (goingFast)
