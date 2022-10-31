@@ -45,9 +45,24 @@ public class ButtonFunction : MonoBehaviour
          isPaused = false;
     }
 
+     public void ResetK()
+    {
+        SceneManager.LoadScene("Kitchen");
+
+        Time.timeScale = 1f;
+         isPaused = false;
+    }
+
     public void ResetR()
     {
         SceneManager.LoadScene("RoachNest");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+    public void ResetFY()
+    {
+        SceneManager.LoadScene("front yard");
 
         Time.timeScale = 1f;
         isPaused = false;
@@ -80,6 +95,13 @@ public class ButtonFunction : MonoBehaviour
     public void NextK()
     {
         SceneManager.LoadScene("Kitchen");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+    public void NextFY()
+    {
+        SceneManager.LoadScene("front yard");
 
         Time.timeScale = 1f;
         isPaused = false;

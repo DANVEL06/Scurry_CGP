@@ -34,7 +34,7 @@ public class Runner2 : MonoBehaviour
     void Start()
     {
         ScurryButton.onClick.AddListener(SpeedChange);
-        imageCooldown.fillAmount = 0.0f;
+        imageCooldown.fillAmount = 1.0f;
     }
 
     // Update is called once per frame
@@ -59,9 +59,13 @@ public class Runner2 : MonoBehaviour
        Debug.Log(moveDirection);
         if (goingFast)
         {
+            currentTime += Time.deltaTime;
+
+            imageCooldown.fillAmount = currentTime / scurryButtonCooldown; //calculates percentage of button filled and puts it in scurry's fillAmount
+            Debug.Log("currentTime =" + currentTime);
+
             if (speedBoostDuration > 0)
             {
-                currentTime += Time.deltaTime;
                 Debug.Log("its working");
 
                 speedBoostDuration -= Time.deltaTime;
@@ -76,9 +80,19 @@ public class Runner2 : MonoBehaviour
                     
                 }
             }
-
-            imageCooldown.fillAmount = currentTime / scurryButtonCooldown; //calculates percentage of button filled and puts it in scurry's fillAmount
         }
+
+        if (scurryWait == true)
+        {
+            currentTime += Time.deltaTime;
+            imageCooldown.fillAmount = currentTime / scurryButtonCooldown;
+        }
+        else
+        {
+            currentTime = 0;
+            imageCooldown.fillAmount = 1.0f;
+        }
+      
 
         /*if (scurryButtonCooldown > 0)
         {
@@ -118,7 +132,7 @@ public class Runner2 : MonoBehaviour
         Debug.Log("gotta go fast");
         goingFast = true;
 
-        goingFast = true;
+        //goingFast = true;
         
         Invoke("DisableSpeedChange",speedBoostDuration);
         if(powerUp_DisableScurryWait == false)
@@ -159,6 +173,7 @@ public class Runner2 : MonoBehaviour
     {
         Debug.Log("powerup ENABLED");
         powerUp_DisableScurryWait = true;
+
         Invoke("Disable_PowerUp_DisableScurryWait",10);
     }
    public void Disable_PowerUp_DisableScurryWait()

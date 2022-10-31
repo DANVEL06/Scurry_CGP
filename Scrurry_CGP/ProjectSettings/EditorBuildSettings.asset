@@ -20,5 +20,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bedroom.unity
     guid: 23a49d66399d7604fb8c2239acc89588
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: 5c3cf10f1d4911c43ac406581db3baeb
+  - enabled: 1
+    path: Assets/Scenes/front yard.unity
+    guid: 057e6f95599917e44a3768f13472c93c
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 89b7aaae9cf4480458fb82079aaa5068, type: 2}

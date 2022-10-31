@@ -92,7 +92,7 @@ Camera:
   far clip plane: 500
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 18
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -164,7 +164,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3436526244307685535}
-  m_Mesh: {fileID: -8177522576677147327, guid: cc750935e37c35f41af3417cf945418e, type: 3}
+  m_Mesh: {fileID: -37169951195138122, guid: 685f578b16d7af6498c0f39dde406544, type: 3}
 --- !u!23 &2036830447882675164
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -217,10 +217,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.011915272
-  m_Height: 0.013709347
+  m_Radius: 0.01201092
+  m_Height: 0.024021845
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 1.2703758e-13, y: -0.00000017228885, z: 0.00009564779}
 --- !u!54 &2036830447882675160
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -256,6 +256,7 @@ MonoBehaviour:
   loseUI: {fileID: 0}
   healthAnimator: {fileID: 0}
   isInvincible: 0
+  cantTouchThis: 5
 --- !u!114 &-8465422836200973001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,7 +310,7 @@ Animator:
   m_GameObject: {fileID: 4198811811417545892}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d81d53afbe7424a42abd9a996fac2307, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
