@@ -114,4 +114,13 @@ public class ButtonFunction : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
     }
+
+    public void QuitGame()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #endif
+
+        Application.Quit();
+    }
 }
