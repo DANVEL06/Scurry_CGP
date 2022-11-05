@@ -9,12 +9,14 @@ public class DestructoBlock : MonoBehaviour
     Runner2 runner;
 
      public GameObject loseUI;
+     public GameObject scurryBtn;
 
     // Start is called before the first frame update
     void Start()
     {
         runner = player.GetComponent<Runner2>();
         loseUI.gameObject.SetActive(false);
+        scurryBtn.gameObject.SetActive(true);
     }
 
     // Update is called once per frame
@@ -31,6 +33,7 @@ public class DestructoBlock : MonoBehaviour
             runner.normalSpeed = 0;
 
             loseUI.gameObject.SetActive(true);
+            scurryBtn.gameObject.SetActive(false);
         }
 
     }

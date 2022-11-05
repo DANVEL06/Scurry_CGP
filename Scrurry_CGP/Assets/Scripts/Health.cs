@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
     public bool isDead = false;
     public HealthBar healthBar;
     public GameObject loseUI;
+    public GameObject scurryBtn;
     public Animator healthAnimator;
     public static bool isPaused = false;
     public bool isInvincible = false;
@@ -21,6 +22,7 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         loseUI.gameObject.SetActive(false);
+        scurryBtn.gameObject.SetActive(true);
     }
 
     public void Damage(int d)
@@ -36,6 +38,7 @@ public class Health : MonoBehaviour
         {
             isDead = true;
             loseUI.gameObject.SetActive(true);
+            scurryBtn.gameObject.SetActive(false);
 
             Time.timeScale = 0f;
             isPaused = true;

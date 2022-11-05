@@ -7,6 +7,7 @@ public class DoorTrigger : MonoBehaviour
     Runner2 runner;
     [SerializeField] GameObject player;
     public GameObject winUI;
+    public static bool isPaused = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,8 @@ public class DoorTrigger : MonoBehaviour
         if(c.CompareTag("Player"))
         {
             winUI.gameObject.SetActive(true);
+            Time.timeScale = 0f;
+            isPaused = true;
         }
 
     }

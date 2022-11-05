@@ -92,7 +92,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2692112934590093308}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.971247, y: 4.4155555, z: 65.25426}
+  m_LocalPosition: {x: 30.971247, y: -22.1, z: 65.25426}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -178,6 +178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   loseUI: {fileID: 0}
+  scurryBtn: {fileID: 0}
 --- !u!1001 &2692112934427724066
 PrefabInstance:
   m_ObjectHideFlags: 0
