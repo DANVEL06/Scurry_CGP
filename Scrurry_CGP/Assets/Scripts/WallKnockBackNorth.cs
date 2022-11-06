@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallKnockBack : MonoBehaviour
+public class WallKnockBackNorth : MonoBehaviour
 {
    public Runner2 runner2;
-   public Animator animator;
+  // public Animator animator;
      [SerializeField] Collider player;
      private int counter;
 
@@ -24,7 +24,7 @@ public class WallKnockBack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (hitTrigger == true){
+       /* if (hitTrigger == true){
         timecounter+=Time.deltaTime;
         if(timecounter>hitCooldown)
         {
@@ -32,15 +32,15 @@ public class WallKnockBack : MonoBehaviour
           animator.SetBool("isHit", false);
           hitTrigger = false;
           Debug.Log("is working");
-        }
-}
+        }*/
     }
+    
    void OnTriggerEnter(Collider player)
    {
-      hitTrigger = true;
-      animator.SetBool("isHit", true);
+      /*hitTrigger = true;
+      animator.SetBool("isHit", true);*/
       Debug.Log("Collision detected");
       //calling knockback function
-     player.GetComponent<Runner2>().Knockback();
+     player.GetComponent<Runner2>().WallKnockback(true);
    }
 }

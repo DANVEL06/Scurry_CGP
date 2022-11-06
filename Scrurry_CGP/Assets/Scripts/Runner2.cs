@@ -22,6 +22,8 @@ public class Runner2 : MonoBehaviour
     public Vector3 moveDirection;
     public Rigidbody rb;
     public bool isKnocked = false;
+    public bool wallKnock=false;
+    public bool wallKnockDown=false;
     public int mult = 1;
     public float knockTime = 1.0f;
     public bool powerUp_DisableScurryWait= false;
@@ -52,6 +54,22 @@ public class Runner2 : MonoBehaviour
         Knockback();
       }
        moveDirection = userDirection * mult;
+
+      //For walls. If the wall pushes the player down the screen then Knockdown = true 
+        if (wallKnock == true)
+        {
+            if (wallKnockDown == true) {
+                var currentPos = transform.localPosition;
+                Vector3 updatedPos = new Vector3(currentPos.x + 3, currentPos.y, currentPos.z);
+                transform.localPosition = updatedPos;
+            }
+            else
+            {
+                var currentPos = transform.localPosition;
+                Vector3 updatedPos = new Vector3(currentPos.x - 3, currentPos.y, currentPos.z);
+                transform.localPosition = updatedPos;
+            }
+        }
         
        //transform.Translate(userDirection * movespeed * Time.deltaTime); 
           if (Input.GetKey(KeyCode.D))  
@@ -166,6 +184,18 @@ public class Runner2 : MonoBehaviour
         isKnocked = false;
         mult = 1;
     }
+
+    public void WallKnockback(bool wallKnockDownGive)
+    {
+        wallKnock = true;
+        wallKnockDown = wallKnockDownGive;
+        Invoke("DisableWallKnockback", knockTime);
+    }
+    void DisableWallKnockback()
+    {
+        wallKnock = false;
+    }
+
 
     public void DisableSpeedChange()
     {
