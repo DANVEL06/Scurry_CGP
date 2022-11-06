@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Runner2 : MonoBehaviour
 {
@@ -28,11 +29,17 @@ public class Runner2 : MonoBehaviour
 
     [SerializeField]
     private Image imageCooldown;
+    public TextMeshProUGUI countText;
+    public TextMeshProUGUI crumbText;
+    private int count;
 
 
     // Start is called before the first frame update
     void Start()
     {
+         count = 0;
+        
+        countText.text = "Crumb Score: " + count.ToString();
         ScurryButton.onClick.AddListener(SpeedChange);
         imageCooldown.fillAmount = 1.0f;
     }
@@ -181,4 +188,15 @@ public class Runner2 : MonoBehaviour
     Debug.Log("powerup DISABLED");
     powerUp_DisableScurryWait = false;
    }
+
+   private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PickUp"))
+        {
+            count += 1;
+
+            countText.text = "Crumb Score: " + count.ToString();
+            
+        }
+    }    
 }
