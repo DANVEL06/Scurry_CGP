@@ -400,6 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a1bf376bab2bed43811b6fc4bbd36cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goopParticleObject: {fileID: 8847636232057278038, guid: 29d1bfd2a73975c439ac5d9d3f09ec63, type: 3}
 --- !u!1 &3099671666877417745
 GameObject:
   m_ObjectHideFlags: 0
