@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DustPickup : MonoBehaviour
-{
-    public GameObject dustParticleObject;
-
+{   
     // Start is called before the first frame update
     void Awake()
     {
@@ -21,10 +19,7 @@ public class DustPickup : MonoBehaviour
     {
        if(other.CompareTag("Player"))
        {
-            dustParticleObject.GetComponent<ParticleSystem>().Play();
-            dustParticleObject.GetComponent<AudioSource>().Play();
-
-            Health h = other.GetComponent<Health>();
+       Health h = other.GetComponent<Health>();
         h.Invincibility();
         Destroy(gameObject);
        }

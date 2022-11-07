@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class GoopPickup : MonoBehaviour
 {
-    public GameObject goopParticleObject;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -21,12 +19,9 @@ public class GoopPickup : MonoBehaviour
     {
        if(other.CompareTag("Player"))
        {
-           goopParticleObject.GetComponent<ParticleSystem>().Play();
-           goopParticleObject.GetComponent<AudioSource>().Play();
-
-           Runner2 r2 = other.GetComponent<Runner2>();
-            r2.PowerUp_DisableScurryWait();
-            Destroy(gameObject);
+       Runner2 r2 = other.GetComponent<Runner2>();
+        r2.PowerUp_DisableScurryWait();
+        Destroy(gameObject);
        }
     }
 }
