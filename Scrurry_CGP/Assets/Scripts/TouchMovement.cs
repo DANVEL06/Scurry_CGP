@@ -24,20 +24,13 @@ public class TouchMovement : MonoBehaviour
             touch = Input.GetTouch(0);
             if(touch.phase == TouchPhase.Moved)
             {
-                /*targetPosition = new Vector3(touch.deltaPosition.x, touch.deltaPosition.y, touch.deltaPosition.y);*/
+   
 
-
-                rb.velocity = new Vector3(
-                    /*rb.velocity.x +*/ touch.deltaPosition.x * speedModifier,
-                    /*rb.velocity.y +*/ touch.deltaPosition.y * dontMove,
-                    /*rb.velocity.z +*/ touch.deltaPosition.y * dontMove);
-                Debug.DrawLine(this.transform.position, touch.deltaPosition, Color.red);
-
-                /*transform.position = new Vector3(
+               transform.position = new Vector3(
                    transform.position.x + touch.deltaPosition.x * speedModifier,
                    transform.position.y + touch.deltaPosition.y * dontMove,
                    transform.position.z + touch.deltaPosition.y * dontMove);
-                */
+                
             }
         }
     }
