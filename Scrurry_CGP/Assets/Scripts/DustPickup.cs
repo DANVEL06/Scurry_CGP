@@ -22,6 +22,8 @@ public class DustPickup : MonoBehaviour
        if(other.CompareTag("Player"))
        {
             dustParticleObject.GetComponent<ParticleSystem>().Play();
+
+            dustParticleObject.GetComponent<AudioSource>().Stop();
             dustParticleObject.GetComponent<AudioSource>().Play();
 
             Health h = other.GetComponent<Health>();

@@ -21,7 +21,10 @@ public class GoopPickup : MonoBehaviour
     {
        if(other.CompareTag("Player"))
        {
+
            goopParticleObject.GetComponent<ParticleSystem>().Play();
+
+           goopParticleObject.GetComponent<AudioSource>().Stop();
            goopParticleObject.GetComponent<AudioSource>().Play();
 
            Runner2 r2 = other.GetComponent<Runner2>();

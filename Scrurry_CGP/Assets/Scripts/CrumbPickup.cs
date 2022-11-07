@@ -16,6 +16,7 @@ public class CrumbPickup : MonoBehaviour
     {
        if(other.CompareTag("Player"))
        {
+            crumbAudioObject.GetComponent<AudioSource>().Stop();
             crumbAudioObject.GetComponent<AudioSource>().Play();
             Destroy(gameObject);
        }

@@ -25,6 +25,8 @@ public class HealthPickup : MonoBehaviour
       if(health.currentHealth < health.maxHealth)
       {
         healthParticleObject.GetComponent<ParticleSystem>().Play();
+        
+        healthParticleObject.GetComponent<AudioSource>().Stop();
         healthParticleObject.GetComponent<AudioSource>().Play();
 
         health.currentHealth = health.currentHealth + heal;
