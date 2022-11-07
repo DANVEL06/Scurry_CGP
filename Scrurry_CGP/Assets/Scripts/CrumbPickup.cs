@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CrumbPickup : MonoBehaviour
 {
+    public GameObject crumbAudioObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,7 @@ public class CrumbPickup : MonoBehaviour
     {
        if(other.CompareTag("Player"))
        {
+            crumbAudioObject.GetComponent<AudioSource>().Play();
             Destroy(gameObject);
        }
     }
