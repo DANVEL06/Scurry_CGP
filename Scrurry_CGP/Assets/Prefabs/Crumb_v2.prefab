@@ -111,4 +111,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae115d205a07a7d45aa068fb8ec5260b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crumbAudioObject: {fileID: 855542311156798816, guid: 5e787032821c18048b735e2df2ccbbe0, type: 3}
+  crumbAudioObject: {fileID: 0}
