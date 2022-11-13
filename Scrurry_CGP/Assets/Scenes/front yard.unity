@@ -179,6 +179,10 @@ PrefabInstance:
       value: SugarCube (14)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -1815,6 +1819,10 @@ PrefabInstance:
       value: SugarCube (10)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -2713,6 +2721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -5606,6 +5618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -10315,6 +10331,10 @@ PrefabInstance:
       value: SugarCube (19)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -10545,6 +10565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -13432,6 +13456,10 @@ PrefabInstance:
       value: SugarCube (15)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -14284,6 +14312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -16766,6 +16798,10 @@ PrefabInstance:
       value: SugarCube (24)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -18276,6 +18312,10 @@ PrefabInstance:
       value: SugarCube
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -18776,6 +18816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -20184,6 +20228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -21726,6 +21774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -23362,6 +23414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -26247,6 +26303,10 @@ PrefabInstance:
       value: SugarCube (12)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -28037,6 +28097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -32525,6 +32589,10 @@ PrefabInstance:
       value: SugarCube (17)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -35185,6 +35253,10 @@ PrefabInstance:
       value: SugarCube (18)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -35325,6 +35397,10 @@ PrefabInstance:
       value: SugarCube (20)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -35362,6 +35438,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 996220228}
+    - target: {fileID: 2036830447882675161, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: scurryBtn
+      value: 
+      objectReference: {fileID: 2004999019}
     - target: {fileID: 2036830447882675164, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -35476,6 +35556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -35815,6 +35899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -39002,6 +39090,10 @@ PrefabInstance:
       value: SugarCube (28)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -41790,6 +41882,10 @@ PrefabInstance:
       value: SugarCube (25)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -41965,6 +42061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -43380,6 +43480,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -45037,6 +45141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -47977,6 +48085,10 @@ PrefabInstance:
       value: SugarCube (21)
       objectReference: {fileID: 0}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
       objectReference: {fileID: 2031153502}
@@ -49569,6 +49681,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1851295388000465529, guid: ef19b9cba5c62d749a19e3a5b6977600, type: 3}
   m_PrefabInstance: {fileID: 2000427436}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2004999019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7054615947340374971, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 383870738}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2005707288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50772,6 +50889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
@@ -52998,7 +53119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4091363657909622968, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.2
+      value: -10.46
       objectReference: {fileID: 0}
     - target: {fileID: 4091363657909622968, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: m_LocalPosition.y
@@ -53040,6 +53161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SugarCube (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1082663363}
     - target: {fileID: 9098263619639018771, guid: 26f7e6ff26ed5c74bad8da920129c8fe, type: 3}
       propertyPath: healthParticleObject
       value: 
