@@ -16,6 +16,8 @@ public class Health : MonoBehaviour
     public bool isInvincible = false;
     public int cantTouchThis = 5;
 
+    public GameObject damageAudioObject;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,9 @@ public class Health : MonoBehaviour
         {
             return;
         }
+
+        damageAudioObject.GetComponent<AudioSource>().Stop();
+        damageAudioObject.GetComponent<AudioSource>().Play();
 
         currentHealth -= d;
         
