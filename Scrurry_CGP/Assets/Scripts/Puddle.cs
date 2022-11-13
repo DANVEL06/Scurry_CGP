@@ -21,6 +21,8 @@ public class Puddle : MonoBehaviour
     void OnTriggerEnter(Collider roach)
     {
         runner.movespeed = runner.puddleSpeed;
+        runner.speedParticlesObject1.GetComponent<ParticleSystem>().Stop();
+        runner.speedParticlesObject2.GetComponent<ParticleSystem>().Stop();
     }
    public void OnTriggerExit(Collider roach)
    {

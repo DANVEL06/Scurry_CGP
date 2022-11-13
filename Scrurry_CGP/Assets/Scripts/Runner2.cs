@@ -29,6 +29,9 @@ public class Runner2 : MonoBehaviour
     public bool powerUp_DisableScurryWait= false;
     private float currentTime =0;
 
+    public GameObject speedParticlesObject1;
+    public GameObject speedParticlesObject2;
+
     [SerializeField]
     private Image imageCooldown;
     public TextMeshProUGUI countText;
@@ -96,6 +99,8 @@ public class Runner2 : MonoBehaviour
                 speedBoostDuration -= Time.deltaTime;
                 if (speedBoostDuration <= 0.01f)
                 {
+                    speedParticlesObject1.GetComponent<ParticleSystem>().Stop();
+                    speedParticlesObject2.GetComponent<ParticleSystem>().Stop();
                     movespeed = normalSpeed;
                     Debug.Log("so slow again");
                     goingFast = false;
@@ -154,6 +159,8 @@ public class Runner2 : MonoBehaviour
 
         Debug.Log("is working");
         movespeed = scurryspeed;
+        speedParticlesObject1.GetComponent<ParticleSystem>().Play();
+        speedParticlesObject2.GetComponent<ParticleSystem>().Play();
         Debug.Log("gotta go fast");
         goingFast = true;
 
