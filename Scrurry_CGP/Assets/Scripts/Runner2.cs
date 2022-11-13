@@ -29,6 +29,9 @@ public class Runner2 : MonoBehaviour
     public bool powerUp_DisableScurryWait= false;
     private float currentTime =0;
 
+    public float wallNorthBorder;
+    public float wallSouthBorder;
+
     public GameObject speedParticlesObject1;
     public GameObject speedParticlesObject2;
 
@@ -63,13 +66,13 @@ public class Runner2 : MonoBehaviour
         {
             if (wallKnockDown == true) {
                 var currentPos = transform.localPosition;
-                Vector3 updatedPos = new Vector3(currentPos.x + 3, currentPos.y, currentPos.z);
+                Vector3 updatedPos = new Vector3(wallNorthBorder, currentPos.y, currentPos.z);
                 transform.localPosition = updatedPos;
             }
             else
             {
                 var currentPos = transform.localPosition;
-                Vector3 updatedPos = new Vector3(currentPos.x - 3, currentPos.y, currentPos.z);
+                Vector3 updatedPos = new Vector3(wallSouthBorder, currentPos.y, currentPos.z);
                 transform.localPosition = updatedPos;
             }
         }
@@ -192,9 +195,19 @@ public class Runner2 : MonoBehaviour
         mult = 1;
     }
 
-    public void WallKnockback(bool wallKnockDownGive)
+    public void WallKnockback(bool wallKnockDownGive, float border)
     {
         wallKnock = true;
+
+        if (wallKnockDownGive == true)
+        {
+            wallNorthBorder = border;
+        }
+        else
+        {
+            wallSouthBorder = border;
+        }
+
         wallKnockDown = wallKnockDownGive;
         Invoke("DisableWallKnockback", knockTime);
     }

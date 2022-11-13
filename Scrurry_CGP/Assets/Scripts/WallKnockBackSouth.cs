@@ -9,9 +9,11 @@ public class WallKnockBackSouth : MonoBehaviour
      [SerializeField] Collider player;
      private int counter;
 
-    public float hitCooldown;
+   // public float hitCooldown;
     private float timecounter;
-    private bool hitTrigger;  
+    private bool hitTrigger;
+
+    public float wallSouthBorder;
 
     // Awake is called before Start
     void Awake()
@@ -41,6 +43,6 @@ public class WallKnockBackSouth : MonoBehaviour
       animator.SetBool("isHit", true);*/
       Debug.Log("Collision detected");
       //calling knockback function
-     player.GetComponent<Runner2>().WallKnockback(false);
+     player.GetComponent<Runner2>().WallKnockback(false,wallSouthBorder);
    }
 }
