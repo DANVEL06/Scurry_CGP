@@ -1697,7 +1697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 64.71
 --- !u!65 &116471427
@@ -4340,7 +4339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -15.94
 --- !u!65 &299494480
@@ -16394,22 +16392,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1517616849}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
-      propertyPath: fastSpeed
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
-      propertyPath: movespeed
-      value: 1500
-      objectReference: {fileID: 0}
-    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
-      propertyPath: normalSpeed
-      value: 1500
-      objectReference: {fileID: 0}
-    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
-      propertyPath: scurryspeed
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: ScurryButton
       value: 
       objectReference: {fileID: 870742263}
@@ -16656,7 +16638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -15.94
 --- !u!65 &1373388907
@@ -16717,7 +16698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 64.71
 --- !u!65 &1375087298
@@ -24264,7 +24244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -15.94
 --- !u!65 &1919115537
@@ -25983,7 +25962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 64.71
 --- !u!65 &2086335151

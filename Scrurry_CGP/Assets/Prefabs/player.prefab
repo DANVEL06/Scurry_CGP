@@ -152,7 +152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036830448250601131}
   m_LocalRotation: {x: -0.21666045, y: 0.5283922, z: -0.14158227, w: -0.8085879}
-  m_LocalPosition: {x: 0.08916701, y: 0.104386896, z: 0.041186057}
+  m_LocalPosition: {x: 0.35, y: 0.3, z: 0.05}
   m_LocalScale: {x: 0.006072536, y: 0.0060725356, z: 0.0060725347}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -220,7 +220,7 @@ Camera:
   far clip plane: 500
   field of view: 60
   orthographic: 1
-  orthographic size: 18
+  orthographic size: 24.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -494,6 +494,7 @@ MonoBehaviour:
   scoutLambert2: {fileID: 2100000, guid: cbef54ee52a21c94296a67ae6ddedf2c, type: 2}
   scoutLambert4: {fileID: 2100000, guid: 0bd000452c6ec6744b521dbb54afcd58, type: 2}
   isDamaged: 0
+  damageTimer: 0
 --- !u!114 &-8465422836200973001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,11 +507,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a19ea17e5ee4848973bccf292775fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 1000
-  normalSpeed: 1000
+  movespeed: 1500
+  normalSpeed: 1500
   puddleSpeed: 500
   scurryspeed: 3000
-  fastSpeed: 1500
+  fastSpeed: 3000
   userDirection: {x: 0, y: 0, z: 1}
   speedBoostDuration: 2
   ScurryButton: {fileID: 0}
@@ -525,7 +526,10 @@ MonoBehaviour:
   wallKnockDown: 0
   mult: 1
   knockTime: 1
+  wallKnockTime: 0.001
   powerUp_DisableScurryWait: 0
+  wallNorthBorder: 0
+  wallSouthBorder: 0
   speedParticlesObject1: {fileID: 2343805499869179811}
   speedParticlesObject2: {fileID: 2343805500845910902}
   imageCooldown: {fileID: 0}

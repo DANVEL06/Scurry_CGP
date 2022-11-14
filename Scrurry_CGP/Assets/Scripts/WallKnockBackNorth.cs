@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WallKnockBackNorth : MonoBehaviour
 {
-   public Runner2 runner2;
+   //public Runner2 runner2;
   // public Animator animator;
      [SerializeField] Collider player;
      private int counter;
@@ -20,7 +20,7 @@ public class WallKnockBackNorth : MonoBehaviour
     void Awake()
     {
         //getting component storing it in the runner2 variable.
-        runner2 = player.GetComponent<Runner2>();
+       // runner2 = player.GetComponent<Runner2>();
 
     }
 
