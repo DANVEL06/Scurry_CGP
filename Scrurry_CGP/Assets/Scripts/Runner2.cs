@@ -26,6 +26,7 @@ public class Runner2 : MonoBehaviour
     public bool wallKnockDown=false;
     public int mult = 1;
     public float knockTime = 1.0f;
+    public float wallKnockTime = .001f;
     public bool powerUp_DisableScurryWait= false;
     private float currentTime =0;
 
