@@ -5638,6 +5638,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+--- !u!114 &144443180 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267358301259289737, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 144443179}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &144443181 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267358302803767098, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 144443179}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &145352780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6424,7 +6446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -29.35
 --- !u!65 &166050107
@@ -6669,7 +6690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 243.8
 --- !u!65 &168174649
@@ -14980,7 +15000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 243.8
 --- !u!65 &367451323
@@ -21879,7 +21898,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 243.8
 --- !u!65 &509479810
@@ -46011,7 +46029,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 243.8
 --- !u!65 &1204503235
@@ -51506,7 +51523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -29.35
 --- !u!65 &1336030023
@@ -58559,7 +58575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -29.35
 --- !u!65 &1527838184
@@ -77019,7 +77034,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 243.8
 --- !u!65 &2010912787
@@ -78484,7 +78498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -29.35
 --- !u!65 &2049112821
@@ -79907,7 +79920,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -29.35
 --- !u!65 &2092219447
@@ -81365,6 +81377,14 @@ PrefabInstance:
       propertyPath: ScurryButton
       value: 
       objectReference: {fileID: 380517015}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: WincrumbText
+      value: 
+      objectReference: {fileID: 144443181}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: LosecrumbText
+      value: 
+      objectReference: {fileID: 144443180}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: imageCooldown
       value: 

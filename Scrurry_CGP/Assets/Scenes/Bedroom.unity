@@ -11896,7 +11896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -36.79
 --- !u!65 &707171075
@@ -14509,7 +14508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -36.79
 --- !u!65 &887957910
@@ -19422,7 +19420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 115.82
 --- !u!65 &1125065950
@@ -20282,7 +20279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 115.82
 --- !u!65 &1179857432
@@ -20957,7 +20953,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -36.79
 --- !u!65 &1239117411
@@ -22365,7 +22360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -36.79
 --- !u!65 &1295724510
@@ -27539,7 +27533,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 115.82
 --- !u!65 &1594124301
@@ -28833,7 +28826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 115.82
 --- !u!65 &1684371885
@@ -33793,7 +33785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 115.82
 --- !u!65 &1959402356
@@ -34754,7 +34745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: -36.79
 --- !u!65 &2013014017
@@ -36694,6 +36684,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 98799979}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: WincrumbText
+      value: 
+      objectReference: {fileID: 5267358301948019038}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: LosecrumbText
+      value: 
+      objectReference: {fileID: 5267358301948019037}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: imageCooldown
       value: 
       objectReference: {fileID: 229060556}
@@ -37248,6 +37246,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &5267358301948019037 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267358301259289737, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 5267358301948019034}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5267358301948019038 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267358302803767098, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 5267358301948019034}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5309856290281655134
 PrefabInstance:
   m_ObjectHideFlags: 0

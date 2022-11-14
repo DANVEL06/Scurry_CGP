@@ -972,7 +972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 275.12
 --- !u!65 &41227209
@@ -1802,7 +1801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: 12.01
 --- !u!65 &72303684
@@ -13007,6 +13005,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1937042394}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: WincrumbText
+      value: 
+      objectReference: {fileID: 1217619370}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: LosecrumbText
+      value: 
+      objectReference: {fileID: 1217619369}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: imageCooldown
       value: 
       objectReference: {fileID: 1937042388}
@@ -17255,7 +17261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: 12.01
 --- !u!65 &823821533
@@ -19965,7 +19970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: 12.01
 --- !u!65 &969611239
@@ -20315,7 +20319,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: 12.01
 --- !u!65 &976830881
@@ -21622,7 +21625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d977db6808f8747bc3f4fe9a9e41d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallNorthBorder: 12.01
 --- !u!65 &1038959979
@@ -25206,6 +25208,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.19688995, y: 0.0049821567, z: 0.19688995}
   m_Center: {x: 0.000000059604645, y: 0.000000003259629, z: -0.000000029802322}
+--- !u!114 &1217619369 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267358301259289737, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 1937042384}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1217619370 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267358302803767098, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 1937042384}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1225024360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30649,7 +30673,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 275.12
 --- !u!65 &1473316111
@@ -31985,7 +32008,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 275.12
 --- !u!65 &1524596142
@@ -36049,7 +36071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 275.12
 --- !u!65 &1720945847
@@ -42612,7 +42633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce16879d91c95fb409306db0b4b054ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runner2: {fileID: 0}
   player: {fileID: 0}
   wallSouthBorder: 275.12
 --- !u!65 &2060837034

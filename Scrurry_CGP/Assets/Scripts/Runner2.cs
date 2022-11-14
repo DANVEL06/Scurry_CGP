@@ -39,7 +39,8 @@ public class Runner2 : MonoBehaviour
     [SerializeField]
     private Image imageCooldown;
     public TextMeshProUGUI countText;
-    public TextMeshProUGUI crumbText;
+    public TextMeshProUGUI WincrumbText;
+    public TextMeshProUGUI LosecrumbText;
     private int count;
 
 
@@ -49,6 +50,9 @@ public class Runner2 : MonoBehaviour
          count = 0;
         
         countText.text = "Crumb Score: " + count.ToString();
+        WincrumbText.text = "Crumb Total: " + count.ToString();
+        LosecrumbText.text = "Crumb Total: " + count.ToString();
+
         ScurryButton.onClick.AddListener(SpeedChange);
         imageCooldown.fillAmount = 1.0f;
     }
@@ -250,6 +254,8 @@ public class Runner2 : MonoBehaviour
             count += 1;
 
             countText.text = "Crumb Score: " + count.ToString();
+            WincrumbText.text = "Crumb Total: " + count.ToString();
+            LosecrumbText.text = "Crumb Total: " + count.ToString();
             
         }
     }    

@@ -11718,6 +11718,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3289776272197745702, guid: 7ff5cc93045be0d4b848d8bfdbe02436, type: 3}
   m_PrefabInstance: {fileID: 924189458}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &935532008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267358301259289737, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 1517616848}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &936472059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12855,6 +12866,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.6540203, y: 4.05139, z: 8.574226}
   m_Center: {x: -0.05584812, y: 1.9498718, z: -0.12882996}
+--- !u!114 &1040987405 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5267358302803767098, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+  m_PrefabInstance: {fileID: 1517616848}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1057406353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16395,6 +16417,14 @@ PrefabInstance:
       propertyPath: ScurryButton
       value: 
       objectReference: {fileID: 870742263}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: WincrumbText
+      value: 
+      objectReference: {fileID: 1040987405}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: LosecrumbText
+      value: 
+      objectReference: {fileID: 935532008}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: imageCooldown
       value: 
