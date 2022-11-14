@@ -18340,7 +18340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872289814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 92.8, z: 1391}
+  m_LocalPosition: {x: 0.5, y: 92.8, z: 1384.3}
   m_LocalScale: {x: 2.0217907, y: 163.76353, z: 105.735054}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39326,6 +39326,16 @@ PrefabInstance:
     - target: {fileID: 5267358301904080945, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267358302331804612, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_text
+      value: 'Level 4
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267358302457145190, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_text
+      value: Level 4
       objectReference: {fileID: 0}
     - target: {fileID: 5267358302676062613, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
