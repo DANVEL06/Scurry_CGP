@@ -448,9 +448,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.01201092
-  m_Height: 0.024021845
+  m_Height: 0
   m_Direction: 1
-  m_Center: {x: -5.5564833e-14, y: -0.00000017228885, z: 0.00009564781}
+  m_Center: {x: -5.5564833e-14, y: 0, z: 0.00009564781}
 --- !u!54 &2036830447882675160
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -534,7 +534,8 @@ MonoBehaviour:
   speedParticlesObject2: {fileID: 2343805500845910902}
   imageCooldown: {fileID: 0}
   countText: {fileID: 0}
-  crumbText: {fileID: 0}
+  WincrumbText: {fileID: 0}
+  LosecrumbText: {fileID: 0}
 --- !u!114 &1427515692
 MonoBehaviour:
   m_ObjectHideFlags: 0
