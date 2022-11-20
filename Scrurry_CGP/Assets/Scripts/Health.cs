@@ -19,8 +19,8 @@ public class Health : MonoBehaviour
     public GameObject damageAudioObject;
     public GameObject scoutWithMaterialObject;
     public Material damageMaterial;
-    public Material scoutLambert2;
-    public Material scoutLambert4;
+    public Material scoutMaterial;
+   // public Material scoutLambert4;
     public bool isDamaged;
     public float damageTimer = 0;
 
@@ -45,7 +45,7 @@ public class Health : MonoBehaviour
         {
             Material[] scoutMats = scoutWithMaterialObject.GetComponent<SkinnedMeshRenderer>().materials;
             scoutMats[0] = damageMaterial;
-            scoutMats[2] = damageMaterial;
+          //  scoutMats[2] = damageMaterial;
             scoutWithMaterialObject.GetComponent<SkinnedMeshRenderer>().materials = scoutMats;
 
             damageTimer -= Time.deltaTime;
@@ -54,8 +54,8 @@ public class Health : MonoBehaviour
         else
         {
             Material[] scoutNormalMats = scoutWithMaterialObject.GetComponent<SkinnedMeshRenderer>().materials;
-            scoutNormalMats[0] = scoutLambert2;
-            scoutNormalMats[2] = scoutLambert4;
+            scoutNormalMats[0] = scoutMaterial;
+            //scoutNormalMats[2] = scoutLambert4;
             scoutWithMaterialObject.GetComponent<SkinnedMeshRenderer>().materials = scoutNormalMats;
 
           

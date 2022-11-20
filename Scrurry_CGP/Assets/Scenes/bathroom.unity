@@ -25308,11 +25308,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3436526244307685535, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
   m_PrefabInstance: {fileID: 2036830448236912844}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1427515690 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 2036830447882675160, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
-  m_PrefabInstance: {fileID: 2036830448236912844}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1428240148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40119,14 +40114,6 @@ PrefabInstance:
       propertyPath: imageCooldown
       value: 
       objectReference: {fileID: 1514436146}
-    - target: {fileID: 1427515692, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
-      propertyPath: rb
-      value: 
-      objectReference: {fileID: 1427515690}
-    - target: {fileID: 1427515692, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
-      propertyPath: speedModifier
-      value: 300
-      objectReference: {fileID: 0}
     - target: {fileID: 2036830447882675161, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: loseUI
       value: 
