@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 474be0be61894d941abcd12935e4f364, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -868,6 +868,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 213872015683598886, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 213872015683598886, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 213872015683598886, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 213872015683598886, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 573417976183430478, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 573417976183430478, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 573417976183430478, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 573417976183430478, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3167430250550949034, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetEndless
+      objectReference: {fileID: 0}
     - target: {fileID: 5267358300832733766, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -954,6 +990,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5267358300832733818, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267358301408270731, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetEndless
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267358301527228732, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetEndless
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267358302331804612, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_text
+      value: 'Endless
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267358302457145190, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_text
+      value: Endless
+      objectReference: {fileID: 0}
+    - target: {fileID: 5267358302676062613, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResetEndless
+      objectReference: {fileID: 0}
+    - target: {fileID: 6334510288723285490, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8172979813111098294, guid: 7fda99ec75439d242883c573834c5974, type: 3}

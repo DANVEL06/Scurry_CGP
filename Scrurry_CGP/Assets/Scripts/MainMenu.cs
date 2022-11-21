@@ -32,5 +32,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
     }
+
+    public void Endless ()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
+    }
     
 }

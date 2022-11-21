@@ -107,6 +107,14 @@ public class ButtonFunction : MonoBehaviour
         isPaused = false;
     }
 
+    public void ResetEndless()
+    {
+        SceneManager.LoadScene("EndlessMode");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
