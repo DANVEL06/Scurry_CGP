@@ -274,7 +274,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b37adf1e0d40bef43b8137bd01b3ef82, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -436,7 +436,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fc13704334a269d48ad8b0be6809e03e, type: 2}
+  - {fileID: 2100000, guid: a0e43c75130c4c14fb8603d0efc2c10c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -846,6 +846,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6461936192480316915, guid: 2f89a19ab25449540b6abe59533c51a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0e43c75130c4c14fb8603d0efc2c10c, type: 2}
     - target: {fileID: 919132149155446097, guid: 2f89a19ab25449540b6abe59533c51a2, type: 3}
       propertyPath: m_Name
       value: scout_enhanced_SC (1)
