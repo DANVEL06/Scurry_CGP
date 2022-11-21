@@ -9623,6 +9623,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 8748892135801146194, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
     - target: {fileID: 919132149155446097, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
       propertyPath: m_Name
       value: TreeTrunk_Model_SC (3)
@@ -13071,6 +13079,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 8748892135801146194, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
     - target: {fileID: 919132149155446097, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
       propertyPath: m_Name
       value: TreeTrunk_Model_SC (2)
@@ -22835,6 +22851,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 8748892135801146194, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
     - target: {fileID: 919132149155446097, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
       propertyPath: m_Name
       value: TreeTrunk_Model_SC
@@ -23169,6 +23193,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 8748892135801146194, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
     - target: {fileID: 919132149155446097, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
       propertyPath: m_Name
       value: TreeTrunk_Model_SC (6)
@@ -28779,6 +28811,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 8748892135801146194, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
     - target: {fileID: 919132149155446097, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
       propertyPath: m_Name
       value: TreeTrunk_Model_SC (4)
@@ -39825,6 +39865,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 8748892135801146194, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
     - target: {fileID: 919132149155446097, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
       propertyPath: m_Name
       value: TreeTrunk_Model_SC (5)
@@ -45358,6 +45406,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 8748892135801146194, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
     - target: {fileID: 919132149155446097, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
       propertyPath: m_Name
       value: TreeTrunk_Model_SC (1)
@@ -54707,6 +54763,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 5561349426305759274, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
+    - target: {fileID: -7511558181221131132, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 8748892135801146194, guid: 8865c6fd1615f664e9f316ff752603f3, type: 3}
     - target: {fileID: 919132149155446097, guid: e3c62f687851e804aa9aafd95af3e659, type: 3}
       propertyPath: m_Name
       value: TreeTrunk_Model_SC (7)
