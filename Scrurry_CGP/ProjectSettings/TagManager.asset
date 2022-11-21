@@ -8,6 +8,7 @@ TagManager:
   - Collision
   - PickUp
   - Weapon
+  - Obstacle
   layers:
   - Default
   - TransparentFX
