@@ -49,7 +49,7 @@ public class Runner2 : MonoBehaviour
     {
          count = 0;
         
-        countText.text = "Crumbs: " + count.ToString();
+        countText.text = "" + count.ToString();
         WincrumbText.text = "Crumb Total: " + count.ToString();
         LosecrumbText.text = "Crumb Total: " + count.ToString();
 
@@ -253,7 +253,7 @@ public class Runner2 : MonoBehaviour
         {
             count += 1;
 
-            countText.text = "Crumbs: " + count.ToString();
+            countText.text = "" + count.ToString();
             WincrumbText.text = "Crumb Total: " + count.ToString();
             LosecrumbText.text = "Crumb Total: " + count.ToString();
             
