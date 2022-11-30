@@ -3082,6 +3082,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3289776272197745702, guid: 7ff5cc93045be0d4b848d8bfdbe02436, type: 3}
   m_PrefabInstance: {fileID: 204176346}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &207031238 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8601024541906218217, guid: 1b5f8f3900a50c24ab0797aa4b93f1cb, type: 3}
+  m_PrefabInstance: {fileID: 848467342}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &207031240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207031238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb931cd3cc4ee240bc3615a8bd6ea00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToUnlock: 1
 --- !u!1001 &215200546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10581,6 +10599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 8601024542993849488, guid: 1b5f8f3900a50c24ab0797aa4b93f1cb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8601024542993849492, guid: 1b5f8f3900a50c24ab0797aa4b93f1cb, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -16153,7 +16175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4400615244458852546, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.91
+      value: 27.7
       objectReference: {fileID: 0}
     - target: {fileID: 4400615244458852546, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16161,7 +16183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4400615244458852546, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.01
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: 4400615244458852546, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_LocalRotation.w
