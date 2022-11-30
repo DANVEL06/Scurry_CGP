@@ -86104,7 +86104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2036830447882675160, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_Constraints
-      value: 112
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 2036830447882675161, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: loseUI
