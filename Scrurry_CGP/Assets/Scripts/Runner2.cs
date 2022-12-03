@@ -43,6 +43,9 @@ public class Runner2 : MonoBehaviour
     public TextMeshProUGUI LosecrumbText;
     private int count;
 
+    public int sceneNumber; //0- is endless
+    public TextMeshProUGUI HighscoreText;
+    public TextMeshProUGUI HighscoreText2;
 
     // Start is called before the first frame update
     void Start()
@@ -256,7 +259,152 @@ public class Runner2 : MonoBehaviour
             countText.text = "" + count.ToString();
             WincrumbText.text = "Crumb Total: " + count.ToString();
             LosecrumbText.text = "Crumb Total: " + count.ToString();
-            
+
+            switch (sceneNumber)
+            {
+                case 1:
+                    if (!PlayerPrefs.HasKey("highscore1"))
+                    {
+                        PlayerPrefs.SetInt("highscore1", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore1")){
+                        PlayerPrefs.SetInt("highscore1", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore1").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore1").ToString();
+                    break;
+
+                case 2:
+                    if (!PlayerPrefs.HasKey("highscore2"))
+                    {
+                        PlayerPrefs.SetInt("highscore2", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore2")){
+                        PlayerPrefs.SetInt("highscore2", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore2").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore2").ToString();
+                    break;
+
+                case 3:
+                    if (!PlayerPrefs.HasKey("highscore3"))
+                    {
+                        PlayerPrefs.SetInt("highscore3", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore3")){
+                        PlayerPrefs.SetInt("highscore3", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore3").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore3").ToString();
+                    break;
+
+                case 4:
+                    if (!PlayerPrefs.HasKey("highscore4"))
+                    {
+                        PlayerPrefs.SetInt("highscore4", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore4")){
+                        PlayerPrefs.SetInt("highscore4", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore4").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore4").ToString();
+                    break;
+
+                case 5:
+                    if (!PlayerPrefs.HasKey("highscore5"))
+                    {
+                        PlayerPrefs.SetInt("highscore5", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore5")){
+                        PlayerPrefs.SetInt("highscore5", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore5").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore5").ToString();
+                    break;
+
+                case 6:
+                    if (!PlayerPrefs.HasKey("highscore6"))
+                    {
+                        PlayerPrefs.SetInt("highscore6", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore6")){
+                        PlayerPrefs.SetInt("highscore6", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore6").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore6").ToString();
+                    break;
+
+                case 7:
+                    if (!PlayerPrefs.HasKey("highscore7"))
+                    {
+                        PlayerPrefs.SetInt("highscore7", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore7")){
+                        PlayerPrefs.SetInt("highscore7", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore7").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore7").ToString();
+                    break;
+
+                case 8: //DLC
+                    if (!PlayerPrefs.HasKey("highscore8"))
+                    {
+                        PlayerPrefs.SetInt("highscore8", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore8")){
+                        PlayerPrefs.SetInt("highscore8", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore8").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore8").ToString();
+                    break;
+
+                case 9:
+                    if (!PlayerPrefs.HasKey("highscore9"))
+                    {
+                        PlayerPrefs.SetInt("highscore9", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore9")){
+                        PlayerPrefs.SetInt("highscore9", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore9").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore9").ToString();
+                    break;
+
+                case 10:
+                    if (!PlayerPrefs.HasKey("highscore10"))
+                    {
+                        PlayerPrefs.SetInt("highscore10", 0);
+                    }
+
+                    if (count > PlayerPrefs.GetInt("highscore10")){
+                        PlayerPrefs.SetInt("highscore10", count);
+                    }
+
+                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore10").ToString();
+                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore10").ToString();
+                    break;
+
+                default:
+                    break;
+            }
         }
     }    
 }

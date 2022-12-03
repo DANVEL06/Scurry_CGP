@@ -10,7 +10,8 @@ public class Timer : MonoBehaviour
     private float startTime;
 
     public int sceneNumber;
-    public TextMeshProUGUI HighscoreText;
+    public TextMeshProUGUI HighscoreText1;
+    public TextMeshProUGUI HighscoreText2;
 
     void Start()
     {
@@ -42,7 +43,8 @@ public class Timer : MonoBehaviour
             string minutesHigh = ((int)(PlayerPrefs.GetFloat("endlessHighscore")) / 60).ToString();
 
 
-            HighscoreText.text = "HighScore: " + minutesHigh +";"+ secondsHigh ;
+            HighscoreText1.text = "HighScore: " + minutesHigh +":"+ secondsHigh ;
+            HighscoreText2.text = "HighScore: " + minutesHigh + ":" + secondsHigh;
         }
     }
 }

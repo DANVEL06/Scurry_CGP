@@ -370,6 +370,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2003692417}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: HighscoreText
+      value: 
+      objectReference: {fileID: 564225711}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: LosecrumbText
       value: 
       objectReference: {fileID: 868274986}
@@ -377,6 +381,10 @@ PrefabInstance:
       propertyPath: imageCooldown
       value: 
       objectReference: {fileID: 134563992}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: HighscoreText2
+      value: 
+      objectReference: {fileID: 868274986}
     - target: {fileID: 2036830447882675160, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_Constraints
       value: 116
@@ -1018,6 +1026,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7025938284013025505, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: HighscoreText1
+      value: 
+      objectReference: {fileID: 564225711}
+    - target: {fileID: 7025938284013025505, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: HighscoreText2
+      value: 
+      objectReference: {fileID: 868274986}
     - target: {fileID: 8172979813111098294, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

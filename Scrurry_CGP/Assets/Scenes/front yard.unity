@@ -9309,6 +9309,18 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 7025938284013025505, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: sceneNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025938284013025505, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: HighscoreText1
+      value: 
+      objectReference: {fileID: 383870742}
+    - target: {fileID: 7025938284013025505, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: HighscoreText2
+      value: 
+      objectReference: {fileID: 383870741}
     - target: {fileID: 8172979813111098294, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -37500,11 +37512,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 383870739}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: sceneNumber
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: ScurryButton
       value: 
       objectReference: {fileID: 144299718}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: WincrumbText
+      value: 
+      objectReference: {fileID: 383870742}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: HighscoreText
       value: 
       objectReference: {fileID: 383870742}
     - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
@@ -37515,6 +37535,10 @@ PrefabInstance:
       propertyPath: imageCooldown
       value: 
       objectReference: {fileID: 383870740}
+    - target: {fileID: -8465422836200973001, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+      propertyPath: HighscoreText2
+      value: 
+      objectReference: {fileID: 383870741}
     - target: {fileID: 2036830447882675160, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_UseGravity
       value: 0
