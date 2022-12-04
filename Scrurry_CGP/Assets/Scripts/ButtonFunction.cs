@@ -115,6 +115,54 @@ public class ButtonFunction : MonoBehaviour
         isPaused = false;
     }
 
+    public void NextDLC1()
+    {
+        SceneManager.LoadScene("DLC 1");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void ResetDLC1()
+    {
+        SceneManager.LoadScene("DLC 1");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void NextDLC2()
+    {
+        SceneManager.LoadScene("DLC 2");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void ResetDLC2()
+    {
+        SceneManager.LoadScene("DLC 2");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void NextDLC3()
+    {
+        SceneManager.LoadScene("DLC 3");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
+    public void ResetDLC3()
+    {
+        SceneManager.LoadScene("DLC 3");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
