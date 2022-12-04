@@ -43,8 +43,8 @@ public class Timer : MonoBehaviour
             string minutesHigh = ((int)(PlayerPrefs.GetFloat("endlessHighscore")) / 60).ToString();
 
 
-            HighscoreText1.text = "HighScore: " + minutesHigh +":"+ secondsHigh ;
-            HighscoreText2.text = "HighScore: " + minutesHigh + ":" + secondsHigh;
+            HighscoreText1.text = "High Score: " + minutesHigh +":"+ secondsHigh ;
+            HighscoreText2.text = "High Score: " + minutesHigh + ":" + secondsHigh;
         }
     }
 }

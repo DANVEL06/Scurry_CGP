@@ -53,8 +53,8 @@ public class Runner2 : MonoBehaviour
          count = 0;
         
         countText.text = "" + count.ToString();
-        WincrumbText.text = "Crumb Total: " + count.ToString();
-        LosecrumbText.text = "Crumb Total: " + count.ToString();
+        WincrumbText.text = "" + count.ToString();
+        LosecrumbText.text = "" + count.ToString();
 
         ScurryButton.onClick.AddListener(SpeedChange);
         imageCooldown.fillAmount = 1.0f;
@@ -257,8 +257,8 @@ public class Runner2 : MonoBehaviour
             count += 1;
 
             countText.text = "" + count.ToString();
-            WincrumbText.text = "Crumb Total: " + count.ToString();
-            LosecrumbText.text = "Crumb Total: " + count.ToString();
+            WincrumbText.text = "" + count.ToString();
+            LosecrumbText.text = "" + count.ToString();
 
             switch (sceneNumber)
             {
@@ -272,8 +272,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore1", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore1").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore1").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore1").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore1").ToString();
                     break;
 
                 case 2:
@@ -286,8 +286,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore2", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore2").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore2").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore2").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore2").ToString();
                     break;
 
                 case 3:
@@ -300,8 +300,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore3", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore3").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore3").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore3").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore3").ToString();
                     break;
 
                 case 4:
@@ -314,8 +314,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore4", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore4").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore4").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore4").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore4").ToString();
                     break;
 
                 case 5:
@@ -328,8 +328,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore5", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore5").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore5").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore5").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore5").ToString();
                     break;
 
                 case 6:
@@ -342,8 +342,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore6", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore6").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore6").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore6").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore6").ToString();
                     break;
 
                 case 7:
@@ -356,8 +356,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore7", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore7").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore7").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore7").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore7").ToString();
                     break;
 
                 case 8: //DLC
@@ -370,8 +370,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore8", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore8").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore8").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore8").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore8").ToString();
                     break;
 
                 case 9:
@@ -384,8 +384,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore9", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore9").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore9").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore9").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore9").ToString();
                     break;
 
                 case 10:
@@ -398,8 +398,8 @@ public class Runner2 : MonoBehaviour
                         PlayerPrefs.SetInt("highscore10", count);
                     }
 
-                    HighscoreText.text = "HighScore: " + PlayerPrefs.GetInt("highscore10").ToString();
-                    HighscoreText2.text = "HighScore: " + PlayerPrefs.GetInt("highscore10").ToString();
+                    HighscoreText.text = "High Score: " + PlayerPrefs.GetInt("highscore10").ToString();
+                    HighscoreText2.text = "High Score: " + PlayerPrefs.GetInt("highscore10").ToString();
                     break;
 
                 default:
