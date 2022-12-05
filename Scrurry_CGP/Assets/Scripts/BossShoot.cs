@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shoot : MonoBehaviour
+public class BossShoot : MonoBehaviour
 {
     public GameObject player; 
     public GameObject projectilePrefab;
