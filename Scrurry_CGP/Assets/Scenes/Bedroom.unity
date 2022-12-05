@@ -36694,6 +36694,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 48482081342398855, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 108.10002
+      objectReference: {fileID: 0}
     - target: {fileID: 1909980695196781891, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: finishGO
       value: 
@@ -36702,9 +36706,17 @@ PrefabInstance:
       propertyPath: playerGO
       value: 
       objectReference: {fileID: 1427515683}
+    - target: {fileID: 2017273376511675489, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -163
+      objectReference: {fileID: 0}
     - target: {fileID: 3167430250550949034, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetBR
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959619388939672239, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -153.09999
       objectReference: {fileID: 0}
     - target: {fileID: 5267358300824892691, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_Sprite
@@ -36960,6 +36972,10 @@ PrefabInstance:
       propertyPath: HighscoreText2
       value: 
       objectReference: {fileID: 5267358301948019037}
+    - target: {fileID: 8172979811351485788, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 165
+      objectReference: {fileID: 0}
     - target: {fileID: 8172979813111098294, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -36967,6 +36983,10 @@ PrefabInstance:
     - target: {fileID: 8172979813111098294, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8959055786690550054, guid: 7fda99ec75439d242883c573834c5974, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 163.99998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fda99ec75439d242883c573834c5974, type: 3}
