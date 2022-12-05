@@ -18,7 +18,7 @@ public class BoundaryKeeper : MonoBehaviour
         pos = transform.position;
         pos.z = player.position.z;
         transform.position = pos;
-        Debug.Log($"<color=red>{player.transform.position} vs {transform.position}</color>");
+      // Debug.Log($"<color=red>{player.transform.position} vs {transform.position}</color>");
 
     }
 }
