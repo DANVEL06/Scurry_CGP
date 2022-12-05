@@ -15,8 +15,7 @@ public class PlayVideo : MonoBehaviour
     {
         StartCoroutine(StartVideo());
     }
-
-   IEnumerator StartVideo()
+    IEnumerator StartVideo()
     {
         videoplayer.Prepare();
         WaitForSeconds waitForSeconds = new WaitForSeconds(1);
