@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DLC 3.unity
     guid: bd17801783e14c14c9561c8018b1368b
+  - enabled: 1
+    path: Assets/Scenes/IntroVid.unity
+    guid: e7ba028ed84c46f4cbafa9c286f89ba3
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 89b7aaae9cf4480458fb82079aaa5068, type: 2}
