@@ -3578,7 +3578,7 @@ PrefabInstance:
       objectReference: {fileID: 383870743}
     - target: {fileID: 5267358301527228732, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextDLC3
+      value: NextBoss
       objectReference: {fileID: 0}
     - target: {fileID: 5267358301527228732, guid: 7fda99ec75439d242883c573834c5974, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -15530,7 +15530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4400615244458852546, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -348.03
+      value: -338
       objectReference: {fileID: 0}
     - target: {fileID: 4400615244458852546, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
       propertyPath: m_LocalRotation.w

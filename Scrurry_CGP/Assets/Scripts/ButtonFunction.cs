@@ -163,6 +163,22 @@ public class ButtonFunction : MonoBehaviour
         isPaused = false;
     }
 
+    public void NextBoss()
+    {
+        SceneManager.LoadScene("BossFight");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+    
+    public void ResetBoss()
+    {
+        SceneManager.LoadScene("BossFight");
+
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
