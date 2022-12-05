@@ -26,6 +26,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 3436526244307685535, guid: e24b0f9d2234fbb4ab1e7e0f520af91c, type: 3}
+--- !u!114 &6608758679253234268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034730995496567879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980952c64c277554d88360527ebb2fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  amount: 1
+  rate: 2.01
+  ticks: 3
 --- !u!1001 &188433797382273302
 PrefabInstance:
   m_ObjectHideFlags: 0
